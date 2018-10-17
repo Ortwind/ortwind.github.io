@@ -4,6 +4,9 @@ author: "Dwight K. Schrute"
 layout: "post"
 ---
 
-This is a help wanted ad for a paper salesman to train under the legendary Michael Scott.
+# Help wanted:
+## Paper Salesman at a mid-cap regional paper and office supply distributor with an emphasis on servicing small-business clients.
+
+Candidate to train under the legendary paper industry salesman, and 11 time Dundie Award winner Michael Scott.
 <br>
-Must be able to deal with annoying co-workers. Yes, I am looking at you Jim.
+Must be able to deal with annoying co-workers.
