@@ -4,22 +4,22 @@ layout: posts
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Clever Name for a Blog about PowerShell</title>
-	<link href="http://hurst.systems/blog/atom.xml" rel="self"/>
-	<link href="http://hurst.systems/blog"/>
+	<title>Ortwind - I am he who hath delt it.</title>
+	<link href="/blog/atom.xml" rel="self"/>
+	<link href="/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://hurst.systems/blog</id>
+	<id>/blog</id>
 	<author>
-		<name>Scott Hurst</name>
-		<email>scott+blog@hurst.systems</email>
+		<name>Nathaniel Hurst</name>
+		<email>not-currently-disclosed@here</email>
 	</author>
 
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://hurst.systems{{ post.url }}"/>
+			<link href="{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://hurst.systems{{ post.id }}</id>
+			<id>{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
