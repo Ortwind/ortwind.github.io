@@ -1,7 +1,8 @@
 ---
 title: "Paper Salesman in Scranton PA"
-author: "Dwight Schrute"
+author: "Dwight K. Schrute"
 layout: "post"
 ---
 
-This is a help wanted ad for a paper salesman to train under Michael Scott 
+This is a help wanted ad for a paper salesman to train under the legendary Michael Scott.
+Must be able to deal with annoying co-workers. Yes, I am looking at you Jim.
