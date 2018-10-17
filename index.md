@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Welcome to Ortwind.com"
 ---
 
 # I remember printer woes
