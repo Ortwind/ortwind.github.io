@@ -1,5 +1,6 @@
 ---
 title: "Paper Salesman in Scranton PA"
+author: "Dwight Schrute"
 layout: "post"
 ---
 
