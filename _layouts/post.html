@@ -6,11 +6,11 @@ layout: default
       <a href="/">Home</a>
     </nav>
     <h1>{{ page.title }}</h1>
-    <p>{{ page.date }} - Written by {{ page.author }}</p>
+    <p>{{ page.date }} - Written by {{ page.author | default: site.author }}</p>
     <section>
       {{ content }}
     </section>
     <footer>
-      &copy; to me
+      &copy; to {{ page.author | default: site.author }}
     </footer>
   </body>
