@@ -1,4 +1,4 @@
-## For when windows updates and installs every printer on your network.
+## When 'Windows Update' installs every last printer on your network.... once again.
 
 ### It will look something like this:
 
