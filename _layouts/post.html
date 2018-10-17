@@ -10,10 +10,10 @@ layout: default
     <section>
       {{ content }}
     </section>
-    <footer>
     <nav>
       <a href="/">Home</a> // <a href="/blog/index.html">Blog</a>
-    </nav>  
+    </nav> 
+    <footer> 
       &copy; {{ page.date | date: "%Y"}} - {{ page.author | default: site.author }}
     </footer>
   </body>
