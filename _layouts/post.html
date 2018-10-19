@@ -9,9 +9,11 @@ layout: default
     <p>By {{ page.author | default: site.author }} - {{ page.date | date: "%B %-d %Y"}}</p>
     <section>
       {{ content }}
+      <br><br><br><br>
     </section>
     <nav>
       <a href="/">Home</a> // <a href="/blog/">Blog</a>
+    <a href="/" class="button">Home</a>// <a href="/blog/" class="button">Blog</a>
     </nav> 
     <footer> 
       &copy; {{ page.date | date: "%Y"}} - {{ page.author | default: site.author }}
