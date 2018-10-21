@@ -2,3 +2,6 @@ theme: jekyll-theme-architect
 author: "Nathaniel Hurst"
 title: "Ortwind"
 permalink: /blog/:year/:month/:day/:title
+include:
+  - .htaccess
+  - _pages
